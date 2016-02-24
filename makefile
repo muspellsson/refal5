@@ -9,7 +9,7 @@ CC = gcc
 # C_FLAGS = -O2 -c -Wall -funsigned-char 
 # C_FLAGS = -g3 -c -Wall -funsigned-char 
 C_FLAGS = -c -DFOR_OS_LINUX -Wall -funsigned-char 
-LFLAGS = -L./linux/ -lxmlparse -lxmltok
+LFLAGS = -lexpat
 rm = rm -f 
 
 .c.o:
